@@ -1,0 +1,235 @@
+/* main container style start  */
+main{
+    background-image: url('images/bg_main.jpg');
+    height:100vh;
+    background-position: cover;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+.muted-text{
+    color: #d0d0d0;
+    font-size: 14px;
+}
+.sm_icons{
+    text-decoration: none;
+    color: black;
+    width: 35px;
+    height: 35px;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    border-radius: 50%;
+    transition: all 0.2s;
+}
+.sm_icons:hover{
+    background-color: #fd4c82;
+    color: white;
+}
+/* main container end */
+
+/* navbar style start */
+.navbar{
+    background-color: white;
+}
+.nav-link{
+    color: black !important;
+    font-size: 1.2rem;
+    font-weight: 500;
+    padding-right:1.8rem !important;
+}
+.active{
+    color: #fd4c82 !important;
+}
+/* navbar end */
+/* heading  start*/
+.main-heading{
+    font-size: 4rem;
+    font-weight: bolder;
+    color: black !important;
+    margin-bottom: 1.4rem;
+}
+.main-para{
+    font-size: 1.3rem;
+    color: #aeaeae;
+    font-weight: 500;
+}
+.main-btn{
+    padding: 15px;
+
+    color: white;
+    background-color: #fd4c82;
+    border: none;
+    outline: none;
+    width: 200px;
+    border-radius: 10px;
+    margin-right: 10px;
+}
+.tel-btn{
+    background-color:#91c235;
+    border: 1px solid #91c235;
+    font-weight: bold;
+    transition: all 0.3s;
+}
+.tel-btn:hover{
+    background-color: white;
+    color:#91c235;
+}
+/* heading end */
+/* boxes start */
+.box{
+height: 8rem;
+background-color: white;
+padding: 10px !important;
+margin-right:30px !important;
+box-shadow: 0px 1px 10px #0000003a;
+display: flex;
+border-radius: 5px;
+justify-content: space-between;
+align-items: center;
+position: relative;
+transition: all 0.3s;
+top: -4rem;
+}
+.icons-box{
+    /* width: 90px;
+    height: 90px; */
+    padding: 2rem;
+    margin-right: 1rem;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #F8F9FA;
+}
+.box:hover{
+    background-color: #fd4c82;
+    color: white;
+}
+.box h5{
+    font-weight: bolder;
+}
+.icon_sm{
+    font-size: 2rem;
+    color: #fd4c82;
+    
+}
+/* boxes end */
+
+/* About section style start */
+.about-banner{
+    background-image: url('images/about.jpg');
+    background-position: cover;
+    background-size: cover;
+    
+}
+.ab-txt-box{
+    padding: 80px 10px  !important;
+
+}
+.ab-txt-box h1 {
+    font-weight: bolder;
+}
+.ab-text{
+    font-weight: bold;
+    color: #fd4c82 ;
+    letter-spacing: 3px;
+
+}
+.serv-icons{
+    font-size: 20px;
+    font-weight: bold;
+    color: black;
+    display: inline-block;
+    padding-bottom: 10px;
+}
+.about-icons{
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    width: 35px;
+    font-size: 14px;
+    color: white;
+    height: 35px;
+    border-radius: 8px;
+    margin-right: 1rem;
+    background-color: #fd4c82;
+}
+/* About section style end */
+.select-in-form{
+  border: none !important;
+}
+.select-div {
+    border: 1px solid #ced4da !important;
+}
+.form-control-lg{
+    border-radius: 0 !important;
+}
+/* groomers sections style start */
+.card_icons{
+    text-decoration: none;
+    color: white;
+    width: 35px;
+    height: 35px;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #fd4c82;
+    border-radius: 0.5rem;
+    transition: all 0.2s;
+}
+
+.card_img{
+    border: 10px solid #f8f9fa;
+    margin: auto;
+    width: 12rem;
+    height: 12rem;
+    border-radius: 50%;
+    position:relative;
+    top: -5rem;
+}
+.card{
+    transition: all 0.3s;
+}
+.card:hover{
+    background-color: #91C235;
+    color: white !important;
+   
+   
+}
+.card:hover .text-center{
+    color: white;
+}
+.card:hover .card_icons{
+    background-color: white;
+    color: #91C235;
+}
+/* groomers sections style end */
+/* bannar section style start  */
+.bannar-box{
+    background-image: url('images/bg_3.jpg');
+    background-position: cover;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+.box-trans{
+    background-color: #d82a5eda;
+}
+img{
+width: 5rem;
+height: 5rem;
+border-radius: 50%;
+margin-right: 2rem;
+
+}
+.card-feedback{
+    padding: 20px;
+    width: 100%;
+    height: 15rem;
+    border-radius: 5px;
+    background-color: white;
+    display: flex;
+}
+/* bannar section style end  */
