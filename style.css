@@ -186,22 +186,29 @@ top: -4rem;
     width: 12rem;
     height: 12rem;
     border-radius: 50%;
-    position:relative;
-    top: -5rem;
+    position:absolute;
+    top: -6rem;
+    right: 0;
+    left: 0;
 }
-.card{
+.card-box{
     transition: all 0.3s;
+    height: 16rem;
+    position: relative;
+    padding-top: 8rem ;
+    background-color: white;
+   
 }
-.card:hover{
+.card-box:hover{
     background-color: #91C235;
     color: white !important;
    
    
 }
-.card:hover .text-center{
+.card-box:hover .text-center{
     color: white;
 }
-.card:hover .card_icons{
+.card-box:hover .card_icons{
     background-color: white;
     color: #91C235;
 }
@@ -215,14 +222,43 @@ top: -4rem;
     background-attachment: fixed;
 }
 .box-trans{
-    background-color: #d82a5eda;
+    background-color: #d82a5e9e;
+}
+.img-dev{
+    width: 5rem;
+    height: 5rem;
+    margin-right: 2rem;
+    position: relative;
 }
 img{
 width: 5rem;
 height: 5rem;
 border-radius: 50%;
-margin-right: 2rem;
 
+
+}
+.quote{
+    width: 2rem;
+    height: 2rem;
+    background-color: #91c235;
+    position: absolute;
+    right: -3px;
+    bottom: -1px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+.name-cstmr{
+    margin-bottom: 0;
+    color: black;
+    font-size: 20px;
+    font-weight: bolder;
+}
+.catagory{
+    color: #fd4c82;
+    font-weight: bolder;
 }
 .card-feedback{
     padding: 20px;
